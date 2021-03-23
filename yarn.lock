@@ -3282,6 +3282,11 @@
   dependencies:
     "lru-cache" "^6.0.0"
 
+"hover.css@^2.3.2":
+  "integrity" "sha1-8HGT2cdAnU45UTTTsiFbmetV4NM="
+  "resolved" "https://registry.npmjs.org/hover.css/-/hover.css-2.3.2.tgz"
+  "version" "2.3.2"
+
 "html-encoding-sniffer@^2.0.1":
   "integrity" "sha512-D5JbOMBIR/TVZkubHT+OyT2705QvogUW4IBn6nHd756OwieSF9aDYFj4dv6HHEVGYbHaLETa3WggZYWWMyy3ZQ=="
   "resolved" "https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-2.0.1.tgz"
