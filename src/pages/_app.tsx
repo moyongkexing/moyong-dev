@@ -7,7 +7,7 @@ const App = (props: AppProps) => {
   return (
     <>
       <Head>
-        <title>moyong-dev</title>
+        <title>Potfolio | MO4g-DEV</title>
       </Head>
       <div className="min-h-screen flex justify-center items-center bg-app">
         <props.Component {...props.pageProps} />

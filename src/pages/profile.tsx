@@ -4,9 +4,8 @@ import Layout from "src/components/Layout";
 const Profile: VFC = () => {
   return (
     <Layout>
-      <div className="flex justify-center">
-      </div>
+      <div className="flex justify-center">coming soon</div>
     </Layout>
-  )
+  );
 };
 export default Profile;

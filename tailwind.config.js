@@ -7,6 +7,7 @@ module.exports = {
         black: "#0e0e0e",
         twitter: "#1da1f2",
         qiita: "#5bba0b",
+        tag: "#454b72",
       },
     },
   },

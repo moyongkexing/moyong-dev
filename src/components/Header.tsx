@@ -5,13 +5,13 @@ const items = [
   { href: "/", label: "Home" },
   { href: "/profile", label: "Profile" },
   { href: "/works", label: "Works" },
-  { href: "/Contact", label: "Contact" },
+  { href: "/contact", label: "Contact" },
 ];
 
 const Header: VFC = () => {
   return (
     <header className="w-full px-5 flex items-center justify-between border-b border-gray-300 xl:px-20">
-      <h1 className="text-black text-2xl font-bold tracking-wide capitalize">moyong-dev</h1>
+      <h1 className="text-black text-2xl font-bold tracking-wide capitalize">MO4g-DEV</h1>
       <nav>
         {items.map(({ href, label }) => {
           return (

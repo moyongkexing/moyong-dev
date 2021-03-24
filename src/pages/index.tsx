@@ -40,13 +40,13 @@ const snsIcon = [
     label: "qiitaのリンク",
   },
 ];
-const siteNameLiteral = Array.from("moyong-dev");
+const siteNameLiteral = Array.from("MO4g-DEV");
 const myNameLiteral = Array.from("Katsuyuki_Suenaga");
 
 const Home: VFC = () => {
   return (
     <div className="bg-white w-full flex flex-col justify-center items-center shadow-xl border-2 border-gray-300 md:w-11/12 xl:w-10/12">
-      <p className="mt-10 mb-5 text-black uppercase text-4xl font-bold tracking-wide cursor-pointer xl:text-5xl">
+      <p className="mt-10 mb-5 text-black text-4xl font-bold tracking-wide cursor-pointer xl:text-5xl">
         {siteNameLiteral.map((t, index) => (
           <span key={index} className={styles.hvrGrow}>
             {t}

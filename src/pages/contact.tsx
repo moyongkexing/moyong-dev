@@ -4,7 +4,7 @@ import Layout from "src/components/Layout";
 const Contact: VFC = () => {
   return (
     <Layout>
-      contact page
+      coming soon
     </Layout>
   );
 };
