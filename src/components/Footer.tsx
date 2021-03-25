@@ -18,7 +18,7 @@ const Footer: VFC = () => {
           <Link href="/contact">お問い合わせ</Link>
         </li>
       </ul>
-      <p className="uppercase mt-8">&copy; 2021 moyong-dev</p>
+      <p className="uppercase mt-8">&copy; 2021 MO4g-DEV</p>
     </footer>
   );
 };
