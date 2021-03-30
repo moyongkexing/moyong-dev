@@ -27,7 +27,7 @@ const homeContentItem = [
 const snsIcon = [
   {
     name: SnsIconTypes.twitter,
-    href: "https://twitter.com/watar_of_echigo",
+    href: "https://twitter.com/mo4g_dev",
     label: "twitterのリンク",
   },
   {
@@ -75,7 +75,7 @@ const Home: VFC = () => {
           ))}
         </div>
 
-        <div className="w-full py-5 flex flex-col items-center md:flex-row md:justify-around border-b border-gray-300">
+        <div className="w-full py-5 flex flex-col items-center md:flex-row md:justify-around">
           <div className="my-4 md:border-r border-gray-300 sm:w-7/12">
             <div className="flex flex-col items-center">
               <p className="text-3xl text-black font-bold mt-1 md:text-4xl lg:text-5xl tracking-wider">
