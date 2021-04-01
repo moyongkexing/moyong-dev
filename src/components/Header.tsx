@@ -11,7 +11,9 @@ const ITEMS = [
 const Header: VFC = () => {
   return (
     <header className="w-full px-5 flex items-center justify-between border-b border-gray-300 xl:px-20">
-      <h1 className="text-black text-3xl font-bold tracking-wide capitalize">MO4g-DEV</h1>
+      <Link href="/">
+        <h1 className="text-black text-3xl font-bold tracking-wide capitalize cursor-pointer">MO4g-DEV</h1>
+      </Link>
       <nav>
         {ITEMS.map(({ href, label }) => {
           return (
