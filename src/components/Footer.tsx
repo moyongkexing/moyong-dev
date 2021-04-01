@@ -12,7 +12,7 @@ const Footer: VFC = () => {
           <Link href="/profile">プロフィール</Link>
         </li>
         <li className="mt-4 md:mt-0 sm:ml-4">
-          <Link href="/works">作品</Link>
+          <Link href="/portfolio">作品</Link>
         </li>
         <li className="mt-4 md:mt-0 sm:ml-4">
           <Link href="/contact">お問い合わせ</Link>

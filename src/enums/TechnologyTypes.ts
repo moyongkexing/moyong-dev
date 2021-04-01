@@ -6,7 +6,7 @@ enum TechnologyTypes {
   react = "React",
   reduxtoolkit = "Redux Toolkit",
   nextjs = "Next.js",
-  rails = "Ruby on Rails",
+  rails = "Rails",
   firebase = "Firebase",
   rspec = "RSpec",
   heroku = "Heroku",
