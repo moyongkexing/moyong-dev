@@ -1,15 +1,14 @@
-import React from "react";
-import type { VFC } from "react";
+import React, { VFC } from "react";
 import Link, { LinkProps } from "next/link";
 import Image from "next/image";
 
-interface Props {
+interface PROPS {
   linkProps: LinkProps;
   imgProps: React.ComponentProps<typeof Image>;
   name: string;
 }
 
-const HomeContent: VFC<Props> = (props) => {
+const HomeContent: VFC<PROPS> = (props) => {
   const { linkProps, imgProps, name } = props;
 
   return (
