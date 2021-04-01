@@ -16,12 +16,10 @@ const PortfolioItem: VFC<PROPS> = (props) => {
   const { href, src, name, created_at, tags, text } = props;
   return (
     <div className="flex w-11/12 my-5 py-5 px-10 border shadow-md">
-      <div className="w-2/5 m-5">
-        <a href={href} target="_blank" rel="noopener noreferrer">
-          <Image src={src} width={450} height={270} />
-        </a>
-      </div>
-      <div className="w-3/5">
+      <a className="flex justify-center items-center w-2/5 m-5 border-2 shadow-md" href={href} target="_blank" rel="noopener noreferrer">
+        <Image src={src} width={450} height={270} />
+      </a>
+      <div className="w-3/5 m-5">
         <h1 className="my-3 text-2xl font-bold">{name}</h1>
         <p className="my-3 text-sm ">
           <ScheduleIcon className="text-sm mx-1" />
