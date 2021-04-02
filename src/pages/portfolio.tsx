@@ -2,7 +2,7 @@ import type { VFC } from "react";
 import Head from "next/head";
 import Layout from "src/components/Layout";
 import PortfolioItem from "src/components/PortfolioItem";
-import TechnologyTypes from "src/enums/TechTypes";
+import TechTypes from "src/enums/TechTypes";
 
 const PORTFOLIO_ITEMS = [
   {
@@ -11,10 +11,10 @@ const PORTFOLIO_ITEMS = [
     name: "Workout Journal",
     created_at: "2021/3",
     tags: [
-      TechnologyTypes.react,
-      TechnologyTypes.toolkit,
-      TechnologyTypes.firebase,
-      TechnologyTypes.tailwind
+      TechTypes.react,
+      TechTypes.toolkit,
+      TechTypes.firebase,
+      TechTypes.tailwind
     ],
     text: [
       "日々の筋トレを記録できるアプリです。",
@@ -29,10 +29,10 @@ const PORTFOLIO_ITEMS = [
     name: "My Portfolio",
     created_at: "2020/12",
     tags: [
-      TechnologyTypes.html,
-      TechnologyTypes.css,
-      TechnologyTypes.javascript,
-      TechnologyTypes.vercel
+      TechTypes.html,
+      TechTypes.css,
+      TechTypes.javascript,
+      TechTypes.vercel
     ],
     text: [
       "HTML、CSS、JavaScriptだけで作成した自己紹介用ホームページです。",
@@ -46,11 +46,11 @@ const PORTFOLIO_ITEMS = [
     name: "Home Study",
     created_at: "2020/8",
     tags: [
-      TechnologyTypes.rails,
-      TechnologyTypes.bootstrap,
-      TechnologyTypes.jquery,
-      TechnologyTypes.rspec,
-      TechnologyTypes.heroku,
+      TechTypes.rails,
+      TechTypes.bootstrap,
+      TechTypes.jquery,
+      TechTypes.rspec,
+      TechTypes.heroku,
     ],
     text: [
       "自宅で勉強する人のためのコミュニティサイトです。",
