@@ -13,6 +13,7 @@ enum TechTypes {
   bootstrap = "Bootstrap",
   tailwind = "Tailwind CSS",
   vercel = "Vercel",
+  typescript = "TypeScript",
 }
 
 export default TechTypes;
