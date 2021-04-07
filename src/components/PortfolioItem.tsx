@@ -1,15 +1,15 @@
 import React, { VFC } from "react";
 import Image from "next/image";
-import Tags from "src/components/TechnologyTags";
+import TechTag from "src/components/TechTag";
 import ScheduleIcon from "@material-ui/icons/Schedule";
-import TechnologyTypes from "src/enums/TechnologyTypes";
+import TechTypes from "src/enums/TechTypes";
 
 interface PROPS {
   href: string,
   src: string,
   name: string,
   created_at: string,
-  tags: TechnologyTypes[],
+  tags: TechTypes[],
   text: string[],
 }
 const PortfolioItem: VFC<PROPS> = (props) => {
@@ -25,19 +25,19 @@ const PortfolioItem: VFC<PROPS> = (props) => {
         <Image src={src} width={450} height={270} />
       </a>
       <div className="flex flex-col justify-center items-center m-5 xl:w-3/5 xl:justify-start xl:items-start">
-        <h1 className="text-lg xl:text-2xl font-bold">{name}</h1>
-        <p className="text-sm xl:mt-2">
+        <h1 className="text-lg text-black xl:text-2xl font-bold">{name}</h1>
+        <p className="text-sm text-black xl:mt-2">
           <ScheduleIcon className="text-sm mx-1" />
           {created_at}
         </p>
         <div className="flex mt-2">
           {tags.map((tag) => (
-            <Tags name={tag} />
+            <TechTag name={tag} />
           ))}
         </div>
         <div className="mt-2 sm:w-4/5 md:2/3 xl:w-full">
           {text.map((row) => (
-            <p className="text-sm xl:text-base xl:my-1">{row}</p>
+            <p className="text-sm text-black xl:text-base xl:my-1">{row}</p>
           ))}
         </div>
       </div>
