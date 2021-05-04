@@ -40,7 +40,7 @@ const PORTFOLIO_ITEMS = [
     src: "/myportfolio.png",
     name: "My Portfolio",
     created_at: "2020/12",
-    tags: [TechTypes.html, TechTypes.css, TechTypes.javascript, TechTypes.vercel],
+    tags: [TechTypes.html, TechTypes.css, TechTypes.javascript, TechTypes.vercel, TechTypes.responsive],
     text: [
       "HTML、CSS、JavaScriptだけで作成した自己紹介用ホームページです。",
       "YouTubeに転がっているHTML/CSSデザイン講座をひたすら写経していた時期があり、そのアウトプットとして作成しました。",
