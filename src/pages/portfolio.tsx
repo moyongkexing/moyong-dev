@@ -18,7 +18,7 @@ const PORTFOLIO_ITEMS = [
     text: [
       "2つ目の自己紹介用ホームページです。",
       "ある方のポートフォリオサイトが素敵だったので許可を得て模写しました。",
-      "Next.jsでSSG、ISRに少し手を出しています。",
+      // "Next.jsでSSG、ISRに少し手を出しています。",
       "コンポーネント設計と型定義にこだわりました。",
     ],
   },
@@ -40,7 +40,7 @@ const PORTFOLIO_ITEMS = [
     src: "/myportfolio.png",
     name: "My Portfolio",
     created_at: "2020/12",
-    tags: [TechTypes.html, TechTypes.css, TechTypes.javascript, TechTypes.vercel],
+    tags: [TechTypes.html, TechTypes.css, TechTypes.javascript, TechTypes.vercel, TechTypes.responsive],
     text: [
       "HTML、CSS、JavaScriptだけで作成した自己紹介用ホームページです。",
       "YouTubeに転がっているHTML/CSSデザイン講座をひたすら写経していた時期があり、そのアウトプットとして作成しました。",
