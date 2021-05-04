@@ -37,7 +37,7 @@ const SNS_ICON = [
   },
   {
     name: SnsIconTypes.qiita,
-    href: "https://qiita.com/moyongkexing",
+    href: "https://qiita.com/mo4g_dev",
     label: "qiitaのリンク",
   },
 ];
