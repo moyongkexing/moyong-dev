@@ -4,43 +4,9 @@ import Image from "next/image";
 import Footer from "src/components/Footer";
 import HomeContent from "src/components/HomeContent";
 import SnsIconButton from "src/components/SnsIconButton";
-import SnsIconTypes from "../enums/SnsTypes";
 import styles from "../styles/hover.module.css";
-
-const HOME_CONTENT_ITEM = [
-  {
-    name: "Profile",
-    href: "/profile",
-    src: "/resume2.png",
-  },
-  {
-    name: "Portfolio",
-    href: "/portfolio",
-    src: "/laptop2.png",
-  },
-  {
-    name: "Contact",
-    href: "/contact",
-    src: "/mail.png",
-  },
-];
-const SNS_ICON = [
-  {
-    name: SnsIconTypes.twitter,
-    href: "https://twitter.com/mo4g_dev",
-    label: "twitterのリンク",
-  },
-  {
-    name: SnsIconTypes.gitHub,
-    href: "https://github.com/moyongkexing",
-    label: "githubのリンク",
-  },
-  {
-    name: SnsIconTypes.qiita,
-    href: "https://qiita.com/mo4g_dev",
-    label: "qiitaのリンク",
-  },
-];
+import HOME_CONTENT_ITEMS from "src/variables/homeContentItems";
+import SNS_ICONS from "src/variables/snsIcons";
 const SITE_NAME_LITERAL = Array.from("MO4g-DEV");
 const MY_NAME_LITERAL = Array.from("Katsuyuki_Suenaga");
 
@@ -60,7 +26,7 @@ const Home: VFC = () => {
         </p>
 
         <div className="w-full pb-5 flex flex-col items-center sm:flex-row sm:pb-10 sm:justify-center border-b border-gray-300">
-          {HOME_CONTENT_ITEM.map((item) => (
+          {HOME_CONTENT_ITEMS.map((item) => (
             <HomeContent
               key={item.name}
               linkProps={{ href: item.href }}
@@ -88,7 +54,7 @@ const Home: VFC = () => {
               <p className="text-2xl text-black font-bold mt-1 md:text-3xl">college student</p>
             </div>
             <div className="flex justify-center my-2 sm:my-4">
-              {SNS_ICON.map((sns) => (
+              {SNS_ICONS.map((sns) => (
                 <SnsIconButton key={sns.name} sns={sns.name} href={sns.href} ariaLabel={sns.label} />
               ))}
             </div>
