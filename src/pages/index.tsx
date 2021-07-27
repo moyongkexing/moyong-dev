@@ -53,7 +53,7 @@ const Home: VFC = () => {
                   </span>
                 )})}
               </p>
-              <p className="text-2xl text-black font-bold mt-1 md:text-3xl">college student</p>
+              <p className="text-black font-bold mt-1 md:text-lg">I'm not a Web Developer yet.</p>
             </div>
             <div className="flex justify-center my-2 sm:my-4">
               {SNS_ICONS.map((sns) => {return (
